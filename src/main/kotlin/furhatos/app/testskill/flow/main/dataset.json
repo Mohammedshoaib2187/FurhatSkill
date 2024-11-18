@@ -1,0 +1,728 @@
+{
+  "movies": {
+    "collection": [
+      {
+        "title": "Inception",
+        "genres": ["Sci-Fi", "Thriller"],
+        "releaseYear": 2010,
+        "director": { "name": "Christopher Nolan", "awards": ["Oscar", "Golden Globe"] },
+        "ratings": { "IMDb": 8.8, "RottenTomatoes": "87%" }
+      },
+      {
+        "title": "The Matrix",
+        "genres": ["Action", "Sci-Fi"],
+        "releaseYear": 1999,
+        "director": { "name": "Lana Wachowski, Lilly Wachowski", "awards": ["Oscar"] },
+        "ratings": { "IMDb": 8.7, "RottenTomatoes": "87%" }
+      },
+      {
+        "title": "The Godfather",
+        "genres": ["Crime", "Drama"],
+        "releaseYear": 1972,
+        "director": { "name": "Francis Ford Coppola", "awards": ["Oscar", "Golden Globe"] },
+        "ratings": { "IMDb": 9.2, "RottenTomatoes": "98%" }
+      },
+      {
+        "title": "Pulp Fiction",
+        "genres": ["Crime", "Drama"],
+        "releaseYear": 1994,
+        "director": { "name": "Quentin Tarantino", "awards": ["Oscar", "Palme d'Or"] },
+        "ratings": { "IMDb": 8.9, "RottenTomatoes": "92%" }
+      },
+      {
+        "title": "The Dark Knight",
+        "genres": ["Action", "Drama"],
+        "releaseYear": 2008,
+        "director": { "name": "Christopher Nolan", "awards": ["Oscar", "BAFTA"] },
+        "ratings": { "IMDb": 9.0, "RottenTomatoes": "94%" }
+      },
+      {
+        "title": "Forrest Gump",
+        "genres": ["Drama", "Romance"],
+        "releaseYear": 1994,
+        "director": { "name": "Robert Zemeckis", "awards": ["Oscar", "Golden Globe"] },
+        "ratings": { "IMDb": 8.8, "RottenTomatoes": "70%" }
+      },
+      {
+        "title": "Schindler's List",
+        "genres": ["Biography", "Drama"],
+        "releaseYear": 1993,
+        "director": { "name": "Steven Spielberg", "awards": ["Oscar", "Golden Globe"] },
+        "ratings": { "IMDb": 8.9, "RottenTomatoes": "98%" }
+      },
+      {
+        "title": "Fight Club",
+        "genres": ["Drama", "Thriller"],
+        "releaseYear": 1999,
+        "director": { "name": "David Fincher", "awards": [] },
+        "ratings": { "IMDb": 8.8, "RottenTomatoes": "79%" }
+      },
+      {
+        "title": "The Shawshank Redemption",
+        "genres": ["Drama"],
+        "releaseYear": 1994,
+        "director": { "name": "Frank Darabont", "awards": [] },
+        "ratings": { "IMDb": 9.3, "RottenTomatoes": "91%" }
+      },
+      {
+        "title": "Interstellar",
+        "genres": ["Adventure", "Drama", "Sci-Fi"],
+        "releaseYear": 2014,
+        "director": { "name": "Christopher Nolan", "awards": ["Oscar"] },
+        "ratings": { "IMDb": 8.6, "RottenTomatoes": "72%" }
+      }
+    ]
+  },
+  "places": {
+    "locations": [
+      {
+        "city": "New York",
+        "places": [
+          { "name": "Central Park", "description": "Large park in Manhattan.", "popularActivities": ["Jogging", "Sightseeing"] },
+          { "name": "Empire State Building", "description": "Iconic skyscraper.", "popularActivities": ["Photography"] }
+        ]
+      },
+      {
+        "city": "Paris",
+        "places": [
+          { "name": "Eiffel Tower", "description": "Landmark in Paris.", "popularActivities": ["Photography"] },
+          { "name": "Louvre Museum", "description": "Art museum.", "popularActivities": ["Art Viewing"] }
+        ]
+      },
+      {
+        "city": "Tokyo",
+        "places": [
+          { "name": "Shibuya Crossing", "description": "Famous intersection.", "popularActivities": ["Sightseeing"] },
+          { "name": "Tokyo Tower", "description": "Observation tower.", "popularActivities": ["Photography"] }
+        ]
+      },
+      {
+        "city": "Sydney",
+        "places": [
+          { "name": "Sydney Opera House", "description": "Opera venue.", "popularActivities": ["Sightseeing"] },
+          { "name": "Bondi Beach", "description": "Popular beach.", "popularActivities": ["Swimming"] }
+        ]
+      },
+      {
+        "city": "Rome",
+        "places": [
+          { "name": "Colosseum", "description": "Ancient arena.", "popularActivities": ["Sightseeing"] },
+          { "name": "Vatican Museums", "description": "Museums in Vatican.", "popularActivities": ["Art Viewing"] }
+        ]
+      },
+      {
+        "city": "London",
+        "places": [
+          { "name": "Big Ben", "description": "Famous clock tower.", "popularActivities": ["Photography"] },
+          { "name": "London Eye", "description": "Observation wheel.", "popularActivities": ["Sightseeing"] }
+        ]
+      },
+      {
+        "city": "Dubai",
+        "places": [
+          { "name": "Burj Khalifa", "description": "Tallest building.", "popularActivities": ["Sightseeing"] },
+          { "name": "Dubai Mall", "description": "Large shopping mall.", "popularActivities": ["Shopping"] }
+        ]
+      },
+      {
+        "city": "Istanbul",
+        "places": [
+          { "name": "Hagia Sophia", "description": "Historical mosque.", "popularActivities": ["History"] },
+          { "name": "Grand Bazaar", "description": "Market area.", "popularActivities": ["Shopping"] }
+        ]
+      },
+      {
+        "city": "Berlin",
+        "places": [
+          { "name": "Brandenburg Gate", "description": "Historical landmark.", "popularActivities": ["Photography"] },
+          { "name": "Berlin Wall", "description": "Historical site.", "popularActivities": ["History"] }
+        ]
+      },
+      {
+        "city": "Barcelona",
+        "places": [
+          { "name": "Sagrada Familia", "description": "Large basilica.", "popularActivities": ["Sightseeing"] },
+          { "name": "Park Güell", "description": "Park designed by Gaudí.", "popularActivities": ["Photography"] }
+        ]
+      }
+    ]
+  },
+  "technology": {
+    "trends": [
+      {
+        "name": "Artificial Intelligence",
+        "applications": ["NLP", "Computer Vision"],
+        "industryImpact": {
+          "healthcare": "Improved diagnostics.",
+          "automotive": "Self-driving cars."
+        }
+      },
+      {
+        "name": "Blockchain",
+        "applications": ["Cryptocurrency"],
+        "industryImpact": {
+          "finance": "Decentralized transactions.",
+          "realEstate": "Transparent transactions."
+        }
+      },
+      {
+        "name": "Cloud Computing",
+        "applications": ["IaaS", "SaaS"],
+        "industryImpact": {
+          "business": "Cost efficiency.",
+          "education": "Remote learning."
+        }
+      },
+      {
+        "name": "Internet of Things",
+        "applications": ["Smart Homes"],
+        "industryImpact": {
+          "manufacturing": "Predictive maintenance.",
+          "retail": "Smart inventory."
+        }
+      },
+      {
+        "name": "5G Technology",
+        "applications": ["Mobile Networks"],
+        "industryImpact": {
+          "telecom": "Faster speeds.",
+          "healthcare": "Remote surgery."
+        }
+      },
+      {
+        "name": "Quantum Computing",
+        "applications": ["Cryptography"],
+        "industryImpact": {
+          "finance": "Risk modeling.",
+          "pharmaceutical": "Drug discovery."
+        }
+      },
+      {
+        "name": "Virtual Reality",
+        "applications": ["Gaming"],
+        "industryImpact": {
+          "realEstate": "Virtual tours.",
+          "education": "Immersive learning."
+        }
+      },
+      {
+        "name": "Augmented Reality",
+        "applications": ["AR Apps"],
+        "industryImpact": {
+          "retail": "Virtual try-ons.",
+          "automotive": "Heads-up displays."
+        }
+      },
+      {
+        "name": "Robotics",
+        "applications": ["Automation"],
+        "industryImpact": {
+          "manufacturing": "Automated production.",
+          "healthcare": "Robotic surgeries."
+        }
+      },
+      {
+        "name": "3D Printing",
+        "applications": ["Prototyping"],
+        "industryImpact": {
+          "manufacturing": "Rapid prototyping.",
+          "medical": "Custom prosthetics."
+        }
+      }
+    ]
+  },
+  "culture": {
+    "traditions": [
+      {
+        "name": "Diwali",
+        "origin": "India",
+        "description": "Festival of Lights celebrated by Hindus, Jains, Sikhs, and some Buddhists.",
+        "practices": ["Lighting diyas", "Fireworks", "Sharing sweets"],
+        "significance": "Victory of light over darkness."
+      },
+      {
+        "name": "Carnival",
+        "origin": "Brazil",
+        "description": "A massive annual festival with parades, music, and dancing.",
+        "practices": ["Samba parades", "Colorful costumes", "Street parties"],
+        "significance": "Celebration before the Lent season."
+      },
+      {
+        "name": "Thanksgiving",
+        "origin": "United States",
+        "description": "A day for giving thanks, traditionally celebrated with a meal.",
+        "practices": ["Thanksgiving dinner", "Family gatherings", "Parades"],
+        "significance": "Giving thanks for harvest and blessings."
+      },
+      {
+        "name": "Hanami",
+        "origin": "Japan",
+        "description": "The Japanese tradition of enjoying cherry blossoms in spring.",
+        "practices": ["Cherry blossom viewing", "Outdoor gatherings", "Photography"],
+        "significance": "Celebration of the fleeting beauty of nature."
+      },
+      {
+        "name": "Eid al-Fitr",
+        "origin": "Worldwide (Islamic culture)",
+        "description": "Festival marking the end of Ramadan.",
+        "practices": ["Charity (Zakat)", "Special prayers", "Feasting"],
+        "significance": "Celebration of the end of fasting."
+      },
+      {
+        "name": "Oktoberfest",
+        "origin": "Germany",
+        "description": "A festival known for its beer and Bavarian culture.",
+        "practices": ["Drinking beer", "Traditional music", "Wearing lederhosen"],
+        "significance": "Celebration of Bavarian heritage."
+      },
+      {
+        "name": "Chinese New Year",
+        "origin": "China",
+        "description": "Spring festival celebrating the start of the lunar new year.",
+        "practices": ["Dragon dances", "Firecrackers", "Red envelopes"],
+        "significance": "Celebration of the lunar new year."
+      },
+      {
+        "name": "Dia de los Muertos",
+        "origin": "Mexico",
+        "description": "Day of the Dead, honoring deceased loved ones.",
+        "practices": ["Building altars", "Decorating with marigolds", "Parades"],
+        "significance": "Celebration of life and death."
+      },
+      {
+        "name": "Midsummer",
+        "origin": "Sweden",
+        "description": "Festival marking the summer solstice.",
+        "practices": ["Dancing around maypoles", "Outdoor feasts", "Bonfires"],
+        "significance": "Celebration of light and the summer season."
+      },
+      {
+        "name": "Holi",
+        "origin": "India",
+        "description": "Festival of colors marking the arrival of spring.",
+        "practices": ["Throwing colored powders", "Singing and dancing", "Bonfires"],
+        "significance": "Celebration of love and the victory of good over evil."
+      }
+    ]
+  },
+  "sports": {
+    "events": [
+      {
+        "name": "Olympic Games",
+        "location": "Varies",
+        "type": "Multi-sport",
+        "frequency": "Every 4 years",
+        "famousAthletes": ["Usain Bolt", "Michael Phelps", "Simone Biles"]
+      },
+      {
+        "name": "FIFA World Cup",
+        "location": "Varies",
+        "type": "Soccer",
+        "frequency": "Every 4 years",
+        "famousAthletes": ["Lionel Messi", "Cristiano Ronaldo", "Pele"]
+      },
+      {
+        "name": "Super Bowl",
+        "location": "United States",
+        "type": "American Football",
+        "frequency": "Annually",
+        "famousAthletes": ["Tom Brady", "Peyton Manning", "Joe Montana"]
+      },
+      {
+        "name": "Wimbledon",
+        "location": "United Kingdom",
+        "type": "Tennis",
+        "frequency": "Annually",
+        "famousAthletes": ["Roger Federer", "Serena Williams", "Novak Djokovic"]
+      },
+      {
+        "name": "Tour de France",
+        "location": "France",
+        "type": "Cycling",
+        "frequency": "Annually",
+        "famousAthletes": ["Lance Armstrong", "Chris Froome", "Eddy Merckx"]
+      },
+      {
+        "name": "NBA Finals",
+        "location": "United States",
+        "type": "Basketball",
+        "frequency": "Annually",
+        "famousAthletes": ["Michael Jordan", "LeBron James", "Kobe Bryant"]
+      },
+      {
+        "name": "Cricket World Cup",
+        "location": "Varies",
+        "type": "Cricket",
+        "frequency": "Every 4 years",
+        "famousAthletes": ["Sachin Tendulkar", "Virat Kohli", "Ricky Ponting"]
+      },
+      {
+        "name": "Masters Tournament",
+        "location": "United States",
+        "type": "Golf",
+        "frequency": "Annually",
+        "famousAthletes": ["Tiger Woods", "Jack Nicklaus", "Phil Mickelson"]
+      },
+      {
+        "name": "UFC Championship",
+        "location": "United States",
+        "type": "Mixed Martial Arts",
+        "frequency": "Annually",
+        "famousAthletes": ["Conor McGregor", "Jon Jones", "Anderson Silva"]
+      },
+      {
+        "name": "Rugby World Cup",
+        "location": "Varies",
+        "type": "Rugby",
+        "frequency": "Every 4 years",
+        "famousAthletes": ["Jonah Lomu", "Richie McCaw", "Martin Johnson"]
+      }
+    ]
+  },
+  "world": {
+    "countries": [
+      {
+        "name": "United States",
+        "capital": "Washington, D.C.",
+        "population": 331000000,
+        "officialLanguages": ["English"],
+        "majorCities": ["New York", "Los Angeles", "Chicago"]
+      },
+      {
+        "name": "China",
+        "capital": "Beijing",
+        "population": 1440000000,
+        "officialLanguages": ["Mandarin"],
+        "majorCities": ["Shanghai", "Shenzhen", "Guangzhou"]
+      },
+      {
+        "name": "India",
+        "capital": "New Delhi",
+        "population": 1390000000,
+        "officialLanguages": ["Hindi", "English"],
+        "majorCities": ["Mumbai", "Bangalore", "Chennai"]
+      },
+      {
+        "name": "Japan",
+        "capital": "Tokyo",
+        "population": 125800000,
+        "officialLanguages": ["Japanese"],
+        "majorCities": ["Osaka", "Yokohama", "Nagoya"]
+      },
+      {
+        "name": "Germany",
+        "capital": "Berlin",
+        "population": 83240000,
+        "officialLanguages": ["German"],
+        "majorCities": ["Munich", "Hamburg", "Frankfurt"]
+      },
+      {
+        "name": "Brazil",
+        "capital": "Brasilia",
+        "population": 213000000,
+        "officialLanguages": ["Portuguese"],
+        "majorCities": ["Sao Paulo", "Rio de Janeiro", "Salvador"]
+      },
+      {
+        "name": "United Kingdom",
+        "capital": "London",
+        "population": 67800000,
+        "officialLanguages": ["English"],
+        "majorCities": ["Manchester", "Birmingham", "Glasgow"]
+      },
+      {
+        "name": "Russia",
+        "capital": "Moscow",
+        "population": 144100000,
+        "officialLanguages": ["Russian"],
+        "majorCities": ["Saint Petersburg", "Novosibirsk", "Yekaterinburg"]
+      },
+      {
+        "name": "France",
+        "capital": "Paris",
+        "population": 67390000,
+        "officialLanguages": ["French"],
+        "majorCities": ["Lyon", "Marseille", "Toulouse"]
+      },
+      {
+        "name": "Australia",
+        "capital": "Canberra",
+        "population": 25690000,
+        "officialLanguages": ["English"],
+        "majorCities": ["Sydney", "Melbourne", "Brisbane"]
+      }
+    ]
+  },
+  "science": {
+    "fields": [
+      {
+        "name": "Physics",
+        "description": "The study of matter, energy, and the interactions between them.",
+        "subfields": ["Quantum Mechanics", "Relativity", "Thermodynamics"],
+        "applications": ["Engineering", "Astronomy", "Nuclear Power"]
+      },
+      {
+        "name": "Chemistry",
+        "description": "The science of substances and their properties and reactions.",
+        "subfields": ["Organic Chemistry", "Inorganic Chemistry", "Physical Chemistry"],
+        "applications": ["Pharmaceuticals", "Materials Science", "Biochemistry"]
+      },
+      {
+        "name": "Biology",
+        "description": "The study of living organisms and life processes.",
+        "subfields": ["Genetics", "Microbiology", "Zoology"],
+        "applications": ["Medicine", "Agriculture", "Ecology"]
+      },
+      {
+        "name": "Astronomy",
+        "description": "The study of celestial objects, space, and the universe.",
+        "subfields": ["Astrophysics", "Cosmology", "Exoplanet Studies"],
+        "applications": ["Space Exploration", "Satellite Technology", "Cosmology"]
+      },
+      {
+        "name": "Geology",
+        "description": "The science of the Earth, its structure, and its materials.",
+        "subfields": ["Mineralogy", "Volcanology", "Seismology"],
+        "applications": ["Natural Resource Extraction", "Environmental Protection", "Earthquake Monitoring"]
+      },
+      {
+        "name": "Environmental Science",
+        "description": "The study of the environment and solutions to environmental issues.",
+        "subfields": ["Ecology", "Environmental Chemistry", "Conservation Science"],
+        "applications": ["Climate Change Mitigation", "Conservation", "Pollution Control"]
+      },
+      {
+        "name": "Computer Science",
+        "description": "The study of computation, algorithms, and information processing.",
+        "subfields": ["Artificial Intelligence", "Cybersecurity", "Data Science"],
+        "applications": ["Software Development", "Data Analysis", "AI"]
+      },
+      {
+        "name": "Mathematics",
+        "description": "The study of numbers, quantities, shapes, and patterns.",
+        "subfields": ["Algebra", "Calculus", "Statistics"],
+        "applications": ["Cryptography", "Statistics", "Financial Modeling"]
+      },
+      {
+        "name": "Psychology",
+        "description": "The study of the mind and behavior.",
+        "subfields": ["Cognitive Psychology", "Behavioral Psychology", "Developmental Psychology"],
+        "applications": ["Mental Health", "Education", "Human-Computer Interaction"]
+      },
+      {
+        "name": "Medicine",
+        "description": "The science of diagnosing, treating, and preventing illness.",
+        "subfields": ["Cardiology", "Neurology", "Oncology"],
+        "applications": ["Healthcare", "Pharmacology", "Surgery"]
+      }
+    ],
+    "discoveries": [
+      {
+        "name": "Gravity",
+        "discoverer": "Isaac Newton",
+        "year": 1687,
+        "description": "The force of attraction between masses.",
+        "impact": ["Physics", "Astronomy"]
+      },
+      {
+        "name": "Electricity",
+        "discoverer": "Benjamin Franklin (key experiments)",
+        "year": 1752,
+        "description": "The flow of electric charge.",
+        "impact": ["Engineering", "Modern Technology"]
+      },
+      {
+        "name": "Theory of Relativity",
+        "discoverer": "Albert Einstein",
+        "year": 1905,
+        "description": "A theory explaining the relationship between space and time.",
+        "impact": ["Physics", "Astronomy"]
+      },
+      {
+        "name": "Penicillin",
+        "discoverer": "Alexander Fleming",
+        "year": 1928,
+        "description": "The first antibiotic used to treat bacterial infections.",
+        "impact": ["Medicine", "Pharmaceuticals"]
+      },
+      {
+        "name": "DNA Structure",
+        "discoverer": "James Watson and Francis Crick",
+        "year": 1953,
+        "description": "The double-helix structure of DNA.",
+        "impact": ["Biology", "Genetics"]
+      },
+      {
+        "name": "Quantum Mechanics",
+        "discoverer": "Max Planck (foundational work)",
+        "year": 1900,
+        "description": "The study of particles at the atomic and subatomic levels.",
+        "impact": ["Physics", "Technology"]
+      },
+      {
+        "name": "Theory of Evolution",
+        "discoverer": "Charles Darwin",
+        "year": 1859,
+        "description": "The theory that species evolve over time through natural selection.",
+        "impact": ["Biology", "Genetics"]
+      },
+      {
+        "name": "Vaccination",
+        "discoverer": "Edward Jenner",
+        "year": 1796,
+        "description": "A method to build immunity to diseases.",
+        "impact": ["Medicine", "Public Health"]
+      },
+      {
+        "name": "Periodic Table",
+        "discoverer": "Dmitri Mendeleev",
+        "year": 1869,
+        "description": "Organization of chemical elements by atomic number.",
+        "impact": ["Chemistry", "Materials Science"]
+      },
+      {
+        "name": "Radioactivity",
+        "discoverer": "Marie Curie",
+        "year": 1898,
+        "description": "The emission of particles from unstable atomic nuclei.",
+        "impact": ["Physics", "Nuclear Energy"]
+      }
+    ],
+    "scientists": [
+      {
+        "name": "Isaac Newton",
+        "field": "Physics",
+        "notableWorks": ["Law of Gravity", "Laws of Motion"],
+        "contributions": ["Physics", "Mathematics"]
+      },
+      {
+        "name": "Albert Einstein",
+        "field": "Physics",
+        "notableWorks": ["Theory of Relativity", "E=mc^2"],
+        "contributions": ["Physics", "Quantum Mechanics"]
+      },
+      {
+        "name": "Marie Curie",
+        "field": "Physics, Chemistry",
+        "notableWorks": ["Research on Radioactivity"],
+        "contributions": ["Chemistry", "Physics"]
+      },
+      {
+        "name": "Charles Darwin",
+        "field": "Biology",
+        "notableWorks": ["Theory of Evolution", "On the Origin of Species"],
+        "contributions": ["Evolutionary Biology", "Natural History"]
+      },
+      {
+        "name": "Nikola Tesla",
+        "field": "Electrical Engineering",
+        "notableWorks": ["Alternating Current (AC)"],
+        "contributions": ["Electrical Engineering", "Electromagnetism"]
+      },
+      {
+        "name": "Galileo Galilei",
+        "field": "Astronomy",
+        "notableWorks": ["Heliocentric Model Support", "Telescope Advancements"],
+        "contributions": ["Astronomy", "Physics"]
+      },
+      {
+        "name": "James Watson",
+        "field": "Biology",
+        "notableWorks": ["Discovery of DNA Structure"],
+        "contributions": ["Genetics", "Molecular Biology"]
+      },
+      {
+        "name": "Alan Turing",
+        "field": "Computer Science",
+        "notableWorks": ["Turing Machine", "Codebreaking"],
+        "contributions": ["Computer Science", "Artificial Intelligence"]
+      },
+      {
+        "name": "Stephen Hawking",
+        "field": "Theoretical Physics",
+        "notableWorks": ["Black Hole Theory", "Hawking Radiation"],
+        "contributions": ["Cosmology", "Theoretical Physics"]
+      },
+      {
+        "name": "Rosalind Franklin",
+        "field": "Chemistry",
+        "notableWorks": ["DNA Imaging with X-Ray Crystallography"],
+        "contributions": ["Genetics", "Molecular Biology"]
+      }
+    ],
+    "theories": [
+      {
+        "name": "Theory of Relativity",
+        "proposedBy": "Albert Einstein",
+        "year": 1905,
+        "field": "Physics",
+        "description": "A theory that describes the relationship between space and time."
+      },
+      {
+        "name": "Theory of Evolution",
+        "proposedBy": "Charles Darwin",
+        "year": 1859,
+        "field": "Biology",
+        "description": "A theory that explains how species evolve over generations."
+      },
+      {
+        "name": "Quantum Theory",
+        "proposedBy": "Max Planck",
+        "year": 1900,
+        "field": "Physics",
+        "description": "A theory explaining the behavior of particles at the atomic level."
+      },
+      {
+        "name": "Big Bang Theory",
+        "proposedBy": "Georges Lemaître",
+        "year": 1927,
+        "field": "Astronomy",
+        "description": "A theory about the origin of the universe."
+      },
+      {
+        "name": "Germ Theory",
+        "proposedBy": "Louis Pasteur",
+        "year": 1861,
+        "field": "Microbiology",
+        "description": "A theory that diseases are caused by microorganisms."
+      },
+      {
+        "name": "Plate Tectonics",
+        "proposedBy": "Alfred Wegener",
+        "year": 1912,
+        "field": "Geology",
+        "description": "A theory describing the movement of Earth's lithospheric plates."
+      },
+      {
+        "name": "General Theory of Systems",
+        "proposedBy": "Ludwig von Bertalanffy",
+        "year": 1936,
+        "field": "Systems Theory",
+        "description": "A theory explaining complex systems and their interactions."
+      },
+      {
+        "name": "Cell Theory",
+        "proposedBy": "Matthias Schleiden and Theodor Schwann",
+        "year": 1839,
+        "field": "Biology",
+        "description": "A theory that all living things are made up of cells."
+      },
+      {
+        "name": "Heliocentric Theory",
+        "proposedBy": "Nicolaus Copernicus",
+        "year": 1543,
+        "field": "Astronomy",
+        "description": "A theory that the sun is at the center of the solar system."
+      },
+      {
+        "name": "Atomic Theory",
+        "proposedBy": "John Dalton",
+        "year": 1803,
+        "field": "Chemistry",
+        "description": "A theory that all matter is made of atoms."
+      }
+    ]
+  }
+}
+
+

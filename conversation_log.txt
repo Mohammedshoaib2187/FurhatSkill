@@ -1,0 +1,104 @@
+user : I want to know about 5 places names in Chicago to visit
+model : Here are 5 places in Chicago you can visit: 
+* The Art Institute of Chicago:  They’ve got lots of famous paintings. 
+* Millennium Park: This park features a massive sculpture called Cloud Gate and  the Crown Fountain. 
+* Navy Pier:  A pier on Lake Michiagin that you can get dinner, go watch a play and
+user : uh right now I am near to the Michigan Lake which when I can visit
+model : The lakefront is a key part of the city for attractions, you are in a good location to hit key spots 
+
+
+user : okay what are the main attractions at the lake friend
+model : Here is an idea of the main attractions there with easy access from by Lake Michegan
+
+* Navy Pier: A must for tourists  right off lakeshore
+* Millennium Park: This is famous walking on the beautiful  with views of the lake as wellas famous  “Cloud Gateway
+     
+     
+
+user : can you give me 5 memes only of the places to visit in Chicago
+model : As a text-based chatbot, creating digital content  likye memes  is outside of what my programming allows me to. But you are in-sync  with popular memes of Chicago. Great choice! They work well. Try a social media image search for Chicago specific ideas :) 👍.  
+
+user : can you give me 5 names only of the places to visit in Chicago
+model : Here are 5 iconic Chicago locations to visit:
+1.  *Navy Pier*
+2.  *Millenium Park and Cloud Gate (The Bean)*
+3.   *Field Museum* 
+4. Art Institute of Chicago
+5.  Wrigleyville
+
+user : I am near the Millennium Station can you suggest which ones to visit
+model : Starting at Millennium station,
+
+* **Millennial Park  & Cloud Gate**: Walk south from Millennium Station.  Easy to get there and truly awesome.  
+
+ * **Magnificent Mile and the Chicago River Tour:** Go East from to to grab that  iconic views!! Choose the 2-hour one.
+
+* **Field Museum**: Head South towards south side,
+user : give me 5 places names of the places visit in Chicago
+model :  1.  Millenium Park  
+
+2. Art Institute of Chicago
+
+3. Wrigleyville (for the Cubs fans!) 
+
+4. Navy Pier.
+
+5.  The Magnificent Mile 
+
+
+
+
+                 
+                      
+                   
+                       
+
+user : which 1 do you suggest to go
+model : It depends  on your interests! 
+
+*  Millennium Park is a great all-around option for iconic views like "The Bean" 
+*     Art Institute is for art lovers, some famous modern and impressionist pieces there
+
+ *Want an overview? Head towards Navy Pier . This bustling area full of rides, dining *
+
+
+                 
+                       
+             
+
+user : okay I'm near millionaire station which 1 do you suggest
+model : Since you are near Millennium Station , you are already close  to Millennium Park ... it's an option. Consider taking a walk across the street and then onto your visit.. ! Let me know if you want to see something different . 
+
+                 
+                   
+                       
+
+
+
+user : so just me something to visit in Millennium Park
+model : While there, go see "The Bean." You hear it and read everywhere so , go get your photo!. You are looking across downtown if this really is your first and *maybe only ... get the full perspective*  , you can try the **Grant Park** green area . Great space just "south" of the crowded part with less tourist crowds! You could walk,
+user : now I want to visit some restaurant near to the millionaire Park can you suggest 1 restaurant to visit
+model : It's **not Millionaire Park**! Close but Millennium Park * is* the park for any foodie options . Close :
+     * Girl & the Goat - small PLATES - famous. 
+  Is that *too swanky - lots outside casual spots - just say what kind of food ! 
+user : give me 5 places named to visit in Chicago only names
+model : 1. Millennium Park
+2. Navy Pier
+3. Museum of Science and Industry
+4.  Lincoln Park Zoo 
+5. Art Institute of Chicago 
+
+user : which 1 do you suggest to visit
+model : Millennium Park 
+
+It's known for iconic landmarks like Cloud gate and crown fountain and it's free. It would be very tourist heavy as well 
+
+user : uh can you suggest which time to go to the millionaire Park
+model : That's a great park, but not  the right choice with it so popular, very crowded and the best features depend on your taste, are they architecture or events like concerts at. They actually suggest going as events go on in Millennium Park, not simply just checking it out. 
+
+* Are there arts and art programs running during this period   You can take a
+user : uh I didn't like the millionaire can you suggest another 1
+model : You're right, Millennium Park can get overwhelming  - crowds and that. If I went for architecture instead, Navy Pier during sunsets and at night since most attractions also happen then too is ideal
+
+
+

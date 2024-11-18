@@ -1,0 +1,20 @@
+{
+  "users" : [
+    {
+      "name" : "john",
+      "interests" : ["Technology","Travel","World"]
+    },
+    {
+      "name" : "sara",
+      "interests" : ["Sport","Science"]
+    },
+    {
+      "name" : "lisa",
+      "interests" : ["Technology","TV","Culture"]
+    },
+    {
+      "name" : "blake",
+      "interests" : ["Science"]
+    }
+  ]
+}
